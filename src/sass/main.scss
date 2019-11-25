@@ -1,0 +1,239 @@
+
+::-webkit-scrollbar{
+  width:10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb{
+  border-width: 1px 1px 1px 2px;
+  border-color: #fff;
+  background-color: #f36d21;
+}
+::-webkit-scrollbar-thumb:hover{
+  border-width: 1px 1px 1px 2px;
+  border-color: #fff;
+  background-color: #f36d21;
+}
+::-webkit-scrollbar-track{
+  border-width: 1px;
+  background-color: #eee;
+  border-color: #fff;
+}
+::-webkit-scrollbar-track:hover{
+  border: solid 1px #f36d21;
+  border-color: #fff;
+}
+
+@import 'info/bootstrap';
+@import 'info/main';
+
+.header{
+  background: url(../images/header-bg.jpg) no-repeat center top/ cover;
+
+}
+html { overflow-x: hidden; }
+.nav{
+  
+}
+.header{
+  padding-bottom: 400px;
+}
+.menu__item{
+  display: inline-block;
+  list-style: none;
+  color: #263742;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 85px;
+  text-transform: uppercase;
+  margin-left: 35px;
+  }
+  .menu__item__social{
+    margin-left: 25px;
+  }
+  .header__title{
+    padding-top: 420px;
+    max-width: 510px;
+    width: 100%;
+    color: #314a5b;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 63px;
+    text-transform: uppercase;
+    span{
+      color: #fa5c65;
+      margin-left: -20px;
+    }
+  }
+  .header__title__subtitle{
+    padding-top: 5px;
+    padding-bottom: 40px;
+    color: #314a5b;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40.35px;
+    text-transform: initial;
+  }
+  .menu__title__read-btn{
+    color: #ffffff;
+    background-color: #fa5c65;
+    border-radius: 5px;
+    padding: 25px 42px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 48.38px;
+    text-transform: uppercase;
+  }
+  .content{
+    padding-top: 86px;
+  }
+  .content__portfolio{
+    padding-top: 104px;
+  }
+  .content__portfolio__title{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    text-transform: uppercase;
+    span{
+      color: #f0454c;
+      margin-left: -5px;
+    }
+  }
+  .content__portfolio__subtitle{
+    color: #314a5b;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .content__portfolio__text{
+    color: #9aa0ab;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .content__snippets__title{
+    max-width: 225px;
+    width: 100%;
+    color: #465065;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    span{
+      color: #f0454c;
+      margin-left: -5px;
+    }
+  }
+  .content__snippets__text{
+    max-width: 257px;
+    width: 100%;
+    color: #9aa0ab;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .content__btn{
+    color: #fa5c65;
+    position: relative;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    &::before{
+      content: '';
+      background: url(../images/Arrow.png) no-repeat;
+      position: absolute;
+      left: 55px;
+      top: 3px;
+      width: 12px;
+      height: 9px;
+    }
+  }
+  .team{
+    padding-top: 105px;
+  }
+  .team__title{
+    color: #314a5b;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 53.86px;
+    text-transform: uppercase;
+    span{
+      color: #f0454c;
+      margin-left: -5px;
+    }
+  }
+  .team__subtitle{
+    color: #9aa0ab;
+    padding-bottom: 40px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .team__name{
+    color: #314a5b;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 53.86px;
+    text-transform: uppercase;
+  }
+  .team__prof{
+    color: #f0454c;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .team__name-info{
+    color: #9aa0ab;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .team__btn{
+    float: right;
+  }
+  .team__button{
+    padding-top: 65px;
+  }
+  .line{
+    background-color: #e6eaed;
+    max-width: 940px;
+    width: 100%;
+    height: 1px;
+    margin-top: 62px;
+    margin-bottom: 32px;
+  }
+  .social__footer{
+    img{
+      margin-left: 22px;
+    }
+  }
+  .info__footer{
+    float: right;
+    color: #b9c0c6;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 60px;
+  }
+  .footer__content{
+    max-width: 940px;
+    width: 100%;
+  }
